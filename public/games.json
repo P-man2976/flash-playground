@@ -1,0 +1,32 @@
+[
+	{
+		"id": "homerun",
+		"name": "プーさんのホームランダービー",
+		"thumbnail": "https://archive.org/download/homerun_20201126/homerun_20201126_screenshot.jpg",
+		"url": "https://archive.org/download/homerun_20201126/homerun.swf"
+	},
+	{
+		"id": "nanaca_crash",
+		"name": "ナナカクラッシュ",
+		"thumbnail": "https://archive.org/download/nanaca-crash_v110/nanacacrash_flash_screenshot.png",
+		"url": "https://archive.org/download/nanaca-crash_v110/nanaca-crash_v110.swf"
+	},
+	{
+		"id": "yaochu_mahjong",
+		"name": "ヤオチュー麻雀",
+		"thumbnail": "https://www.mondotv.jp/files/images/gametop_yaotyu.jpg",
+		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_YAOTYU.swf"
+	},
+	{
+		"id": "manzu_mahjong",
+		"name": "萬雀",
+		"thumbnail": "https://www.mondotv.jp/files/images/gametop_manzu.jpg",
+		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_MANZU.swf"
+	},
+	{
+		"id": "tennis",
+		"name": "テニスゲーム",
+		"thumbnail": "https://www.gamedesign.jp/img/tennis_flash.gif",
+		"url": "https://www.gamedesign.jp/flash/tennis/tennis2.swf"
+	}
+]
