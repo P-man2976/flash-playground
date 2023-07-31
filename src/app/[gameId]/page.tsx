@@ -12,7 +12,7 @@ export default function Game({ params }: { params: { gameId: string } }) {
 
 	const { swfLoaded } = useRuffle({
 		containerRef: ruffleRef,
-		swfUrl: `http://localhost:3000/api/swf/${gameId}`,
+		swfUrl: `/api/swf/${gameId}`,
 	});
 
 	return (
