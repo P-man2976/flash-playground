@@ -10,6 +10,7 @@
 		"prepare": "panda codegen"
 	},
 	"dependencies": {
+		"@ducanh2912/next-pwa": "^9.4.0",
 		"@ruffle-rs/ruffle": "^0.1.0-nightly.2023.7.30",
 		"@types/node": "20.4.5",
 		"@types/react": "18.2.17",

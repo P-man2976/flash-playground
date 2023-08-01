@@ -37,3 +37,8 @@ next-env.d.ts
 # Panda
 styled-system
 styled-system-static
+
+# Next PWA
+public/sw.js
+public/workbox-*.js
+public/fallback-*.js

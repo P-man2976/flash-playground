@@ -1,6 +1,4 @@
-// import "@ruffle-rs/ruffle";
 import { RefObject, useState, useEffect } from "react";
-import { CssProperties } from "../../styled-system/types/system-types";
 
 export const useRuffle = ({
 	containerRef,
