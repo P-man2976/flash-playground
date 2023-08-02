@@ -1,6 +1,10 @@
+import Link from "next/link";
+import { Manrope } from "next/font/google";
 import { container, vstack } from "../../styled-system/patterns";
-import GameCard from "@/components/Game";
-import games from "../../public/games.json";
+import { css } from "../../styled-system/css";
+import GameList from "@/components/GameList";
+
+const manrope = Manrope({ subsets: ["latin"] });
 
 export default async function Home() {
 	return (
@@ -8,16 +12,34 @@ export default async function Home() {
 			className={container({
 				display: "flex",
 				h: "full",
+				px: 4,
 				py: 8,
-				// alignItems: "center",
 				justifyContent: "center",
-				overflowY: "auto",
 			})}
 		>
-			<div className={vstack({ gap: 0 })}>
-				{games.map((game) => (
-					<GameCard key={game.id} {...game} />
-				))}
+			<div className={vstack({ w: "full", justify: "center", gap: 8, pt: 16 })}>
+				<header className={vstack({ w: "full", justify: "center", gap: 8 })}>
+					<h1
+						className={css({
+							fontSize: { base: "8vw", lg: "8xl" },
+							fontWeight: "black",
+						})}
+						style={manrope.style}
+					>
+						Flash Playground
+					</h1>
+					<Link
+						href="/about"
+						className={css({
+							layerStyle: "link",
+							textStyle: "link",
+							textUnderlineOffset: 3,
+						})}
+					>
+						このサイトについて
+					</Link>
+				</header>
+				<GameList />
 			</div>
 		</div>
 	);

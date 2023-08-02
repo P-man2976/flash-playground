@@ -11,6 +11,8 @@
 	},
 	"dependencies": {
 		"@ducanh2912/next-pwa": "^9.4.0",
+		"@radix-ui/react-select": "^1.2.2",
+		"@radix-ui/react-toggle-group": "^1.0.4",
 		"@ruffle-rs/ruffle": "^0.1.0-nightly.2023.7.30",
 		"@types/node": "20.4.5",
 		"@types/react": "18.2.17",
@@ -20,6 +22,7 @@
 		"next": "13.4.12",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
+		"react-icons": "^4.10.1",
 		"typescript": "5.1.6"
 	},
 	"devDependencies": {

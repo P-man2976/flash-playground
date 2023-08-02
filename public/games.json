@@ -14,12 +14,14 @@
 	{
 		"id": "yaochu_mahjong",
 		"name": "ヤオチュー麻雀",
+		"description": "一九字牌のみの2人麻雀。ハネ満・倍満当たり前！普段はなかなかアガれない役が連発！",
 		"thumbnail": "https://www.mondotv.jp/files/images/gametop_yaotyu.jpg",
 		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_YAOTYU.swf"
 	},
 	{
 		"id": "manzu_mahjong",
 		"name": "萬雀",
+		"description": "マンズのみの2人麻雀！最低でもチンイツ！ほぼ3巡以内に終わるサクサク感！待牌当ての訓練にも最適！",
 		"thumbnail": "https://www.mondotv.jp/files/images/gametop_manzu.jpg",
 		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_MANZU.swf"
 	},

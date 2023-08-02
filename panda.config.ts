@@ -1,4 +1,6 @@
 import { defineConfig } from "@pandacss/dev";
+import { textStyles } from "./src/panda/text-styles";
+import { layerStyles } from "./src/panda/layer-styles";
 
 export default defineConfig({
 	// Whether to use css reset
@@ -13,6 +15,8 @@ export default defineConfig({
 	// Useful for theme customization
 	theme: {
 		extend: {
+			textStyles,
+			layerStyles,
 			keyframes: {
 				loading: {
 					"0%": { transform: "rotate(0deg)" },

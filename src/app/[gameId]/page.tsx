@@ -20,13 +20,14 @@ export default function Game({ params }: { params: { gameId: string } }) {
 			className={css({
 				position: "fixed",
 				inset: 0,
-				bg: "neutral.800",
+				bg: "neutral.100",
 			})}
 		>
 			{!swfLoaded && (
-				<div className={vstack({ w: "full", h: "full", bg: "neutral.800", alignItems: "center", justify: "center", gap: 8 })}>
+				<div className={vstack({ w: "full", h: "full", bg: "neutral.100", alignItems: "center", justify: "center", gap: 6 })}>
 					<Spinner />
-					<p className={css({ color: "white", fontSize: "4xl", fontWeight: 'light' })}>Loading Flash...</p>
+					<p className={css({ fontSize: "2xl", fontWeight: "bold" })}>読み込み中...</p>
+					<p className={css({ color: "neutral.600", fontSize: "sm" })}>初回の読み込みは時間がかかる場合があります</p>
 				</div>
 			)}
 			<div ref={ruffleRef} className={css({ w: "full", h: "full" })} />

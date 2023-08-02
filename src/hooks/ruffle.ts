@@ -36,7 +36,13 @@ export const useRuffle = ({
 		containerRef.current?.appendChild(player);
 		const containerRefValue = containerRef.current;
 
-		player.config = {};
+		player.config = {
+			autoPlay: "on",
+			unmuteOverlay: "hidden",
+			letterbox: "off",
+			maxExecutionDuration: 100000,
+			splashScreen: false
+		};
 
 		player.style.width = "100%";
 		player.style.height = "100%";
