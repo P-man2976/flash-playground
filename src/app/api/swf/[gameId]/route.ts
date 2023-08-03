@@ -7,7 +7,7 @@ export async function GET(req: Request, { params }: { params: { gameId: string }
 
 	if (!game) return new NextResponse(undefined, { status: 404 });
 
-	const swf = await fetch(game.url);
+	const swf = await fetch(game.swf);
 
 	return swf;
 }

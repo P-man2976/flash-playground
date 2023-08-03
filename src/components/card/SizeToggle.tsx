@@ -1,5 +1,5 @@
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
-import { TbLayoutGrid, TbLayoutList, TbListDetails } from "react-icons/tb";
+import { TbLayoutGrid, TbListDetails, TbList } from "react-icons/tb";
 import { CardSize } from "../GameList";
 import { hstack } from "../../../styled-system/patterns";
 import { ReactNode } from "react";
@@ -20,10 +20,10 @@ export default function SizeToggle({ size, onChange }: { size: CardSize; onChang
 			onValueChange={onChange}
 		>
 			<ToggleItem value="sm">
-				<TbListDetails  />
+				<TbList  />
 			</ToggleItem>
 			<ToggleItem value="md">
-				<TbLayoutList />
+				<TbListDetails />
 			</ToggleItem>
 			<ToggleItem value="lg">
 				<TbLayoutGrid />

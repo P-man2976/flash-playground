@@ -35,6 +35,8 @@ export default function GameList() {
 					columns: size === "lg" ? { base: 1, sm: 2, md: 3, lg: 4 } : 1,
 					rowGap: size === "lg" ? 12 : 0,
 					columnGap: 8,
+					rounded: 'xl',
+					shadow: size === 'lg' ? 'none' : 'md'
 				})}
 			>
 				{games.map((game) => (

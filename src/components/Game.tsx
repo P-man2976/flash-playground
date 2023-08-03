@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { aspectRatio, hstack, stack, vstack } from "../../styled-system/patterns";
+import { hstack, vstack } from "../../styled-system/patterns";
 import { css } from "../../styled-system/css";
 import { Game } from "@/types";
 import Link from "next/link";
@@ -64,8 +64,8 @@ export default function GameCard({ size, id, name, thumbnail, description }: Gam
 						height={80}
 						className={css({
 							objectFit: "cover",
-							aspectRatio: "16/9",
-							w: { base: 20, md: 40 },
+							aspectRatio: "1/1",
+							w: 20,
 							rounded: "lg",
 						})}
 					/>

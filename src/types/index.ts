@@ -3,5 +3,6 @@ export interface Game {
 	name: string;
 	description?: string;
 	thumbnail: string;
-	url: string;
+	url?: string;
+	swf: string;
 }

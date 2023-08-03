@@ -2,33 +2,88 @@
 	{
 		"id": "homerun",
 		"name": "プーさんのホームランダービー",
+		"description": "100エーカーの森のゆかいななかまとホームランきょうそうをしよう!\nくまのプーさんをじょうずにそうさして、ホームランを打とう!!",
 		"thumbnail": "https://archive.org/download/homerun_20201126/homerun_20201126_screenshot.jpg",
-		"url": "https://archive.org/download/homerun_20201126/homerun.swf"
+		"swf": "https://archive.org/download/homerun_20201126/homerun.swf"
 	},
 	{
 		"id": "nanaca_crash",
 		"name": "ナナカクラッシュ",
+		"description": "自転車に乗った七香が太一に激突してふっ飛ばし、どこまで停止させずに飛距離を稼げるかを競うゲーム。",
 		"thumbnail": "https://archive.org/download/nanaca-crash_v110/nanacacrash_flash_screenshot.png",
-		"url": "https://archive.org/download/nanaca-crash_v110/nanaca-crash_v110.swf"
+		"url": "http://sweetdrop.net/nanaca/nanaca.html",
+		"swf": "http://sweetdrop.net/nanaca/nanaca.swf"
+	},
+	{
+		"id": "owata_adventure",
+		"name": "人生オワタの大冒険",
+		"description": "言わずと知れた死にゲー。",
+		"thumbnail": "http://king-soukutu.com/img/owata1.jpg",
+		"url": "http://king-soukutu.com/flash/owata.html",
+		"swf": "http://king-soukutu.com/flash/owata.swf"
+	},
+	{
+		"id": "tanyao_mahjong",
+		"name": "タンヤオ麻雀",
+		"description": "一九字牌を除いたタンヤオ牌だけの2人麻雀。好配牌・鬼ヅモ連発！普段の麻雀では味わえないサクサク爽快感！",
+		"thumbnail": "https://www.mondotv.jp/files/images/gametop_tanyao.jpg",
+		"url": "https://www.mondotv.jp/games/mj-tanyao",
+		"swf": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_TANYAO.swf"
 	},
 	{
 		"id": "yaochu_mahjong",
 		"name": "ヤオチュー麻雀",
 		"description": "一九字牌のみの2人麻雀。ハネ満・倍満当たり前！普段はなかなかアガれない役が連発！",
 		"thumbnail": "https://www.mondotv.jp/files/images/gametop_yaotyu.jpg",
-		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_YAOTYU.swf"
+		"url": "https://www.mondotv.jp/games/mj-yaochu",
+		"swf": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_YAOTYU.swf"
 	},
 	{
 		"id": "manzu_mahjong",
 		"name": "萬雀",
 		"description": "マンズのみの2人麻雀！最低でもチンイツ！ほぼ3巡以内に終わるサクサク感！待牌当ての訓練にも最適！",
 		"thumbnail": "https://www.mondotv.jp/files/images/gametop_manzu.jpg",
-		"url": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_MANZU.swf"
+		"url": "https://www.mondotv.jp/games/mj-manzu",
+		"swf": "http://s3.mondotv.jp.s3.amazonaws.com/files/flash/JONG_MANZU.swf"
 	},
 	{
-		"id": "tennis",
+		"id": "tennis_flash",
 		"name": "テニスゲーム",
+		"description": "スペースキーでストローク、方向キーで移動。3ゲーム先取で勝ち。",
 		"thumbnail": "https://www.gamedesign.jp/img/tennis_flash.gif",
-		"url": "https://www.gamedesign.jp/flash/tennis/tennis2.swf"
+		"url": "https://www.gamedesign.jp/flash/tennis/tennis.html",
+		"swf": "https://www.gamedesign.jp/flash/tennis/tennis2.swf"
+	},
+	{
+		"id": "chat_noir",
+		"name": "Chat Noir",
+		"description": "黒猫を囲い込むゲーム。",
+		"thumbnail": "https://www.gamedesign.jp/img/chatnoir.gif",
+		"url": "https://www.gamedesign.jp/flash/chatnoir/chatnoir.html",
+		"swf": "https://www.gamedesign.jp/flash/chatnoir/chatnoir.swf"
+	},
+	{
+		"id": "bamboo_mahjong",
+		"name": "BAMBOO麻雀",
+		"description": "ソーズだけを使った二人対戦麻雀ゲーム。30万点でクリア。",
+		"thumbnail": "https://www.gamedesign.jp/img/bamboo2.gif",
+		"url": "https://www.gamedesign.jp/flash/bamboo/bamboo.html",
+		"swf": "https://www.gamedesign.jp/flash/bamboo/bamboo.swf"
+	},
+	{
+		"id": "sudoku",
+		"name": "数独",
+		"description": "「数独」「SUDOKU」と呼ばれる数字パズルゲーム。",
+		"thumbnail": "https://www.gamedesign.jp/img/sudoku.gif",
+		"url": "https://www.gamedesign.jp/flash/sudoku/sudoku_jp.html",
+		"swf": "https://www.gamedesign.jp/flash/sudoku/sd.swf"
+	},
+	{
+		"id": "slot_flash",
+		"name": "パチスロフラッシュ",
+		"description": "パチスロタイプのスロットゲーム。",
+		"thumbnail": "https://www.gamedesign.jp/img/slot.gif",
+		"url": "https://www.gamedesign.jp/flash/slot/index.html",
+		"swf": "https://www.gamedesign.jp/flash/slot/slot.swf"
 	}
 ]
