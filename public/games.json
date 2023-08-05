@@ -63,6 +63,14 @@
 		"swf": "https://www.gamedesign.jp/flash/chatnoir/chatnoir.swf"
 	},
 	{
+		"id": "syogi_flash",
+		"name": "将棋Flash",
+		"description": "コンピューター対戦の将棋ゲーム。",
+		"thumbnail": "https://www.gamedesign.jp/img/shogi.gif",
+		"url": "https://www.gamedesign.jp/flash/shogi/shogi.html",
+		"swf": "https://www.gamedesign.jp/flash/shogi/shogi.swf"
+	},
+	{
 		"id": "bamboo_mahjong",
 		"name": "BAMBOO麻雀",
 		"description": "ソーズだけを使った二人対戦麻雀ゲーム。30万点でクリア。",
@@ -85,5 +93,13 @@
 		"thumbnail": "https://www.gamedesign.jp/img/slot.gif",
 		"url": "https://www.gamedesign.jp/flash/slot/index.html",
 		"swf": "https://www.gamedesign.jp/flash/slot/slot.swf"
+	},
+	{
+		"id": "pachinko_dokidoki",
+		"name": "めざせドキドキ島",
+		"description": "レースの結果がボーナスに直結！パチスロ史上初のドキドキ体験始まる！！",
+		"thumbnail": "https://www.olympia.co.jp/machine/dokidoki/top2.jpg",
+		"url": "https://www.olympia.co.jp/machine/dokidoki/sim/sim2.htm",
+		"swf": "https://www.olympia.co.jp/machine/dokidoki/sim/sim_dokidoki2-3.swf"
 	}
 ]

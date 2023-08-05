@@ -60,6 +60,12 @@ const nextConfig = {
 				port: "",
 				pathname: "/**",
 			},
+			{
+				protocol: "https",
+				hostname: "www.olympia.co.jp",
+				port: "",
+				pathname: "/**",
+			},
 		],
 	},
 	headers: async () => [

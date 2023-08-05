@@ -1,9 +1,9 @@
 "use client";
 import { useRef } from "react";
-import { css } from "../../../styled-system/css";
+import { css } from "../../../../styled-system/css";
 import { Game } from "@/types";
 import { useRuffle } from "@/hooks/ruffle";
-import { vstack } from "../../../styled-system/patterns";
+import { vstack } from "../../../../styled-system/patterns";
 import Spinner from "@/components/Spinner";
 
 export default function Game({ params }: { params: { gameId: string } }) {

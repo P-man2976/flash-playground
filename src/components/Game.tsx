@@ -21,7 +21,7 @@ export default function GameCard({ size, id, name, thumbnail, description }: Gam
 						transition: "box-shadow .4s ease",
 						_hover: { shadow: "2xl" },
 					})}
-					href={`/${id}`}
+					href={`/game/${id}`}
 				>
 					<Image
 						src={thumbnail}
@@ -55,7 +55,7 @@ export default function GameCard({ size, id, name, thumbnail, description }: Gam
 						_first: { roundedTop: "xl" },
 						_last: { roundedBottom: "xl", border: "none" },
 					})}
-					href={`${id}`}
+					href={`/game/${id}`}
 				>
 					<Image
 						src={thumbnail}
@@ -91,7 +91,7 @@ export default function GameCard({ size, id, name, thumbnail, description }: Gam
 						_first: { roundedTop: "xl" },
 						_last: { roundedBottom: "xl", border: "none" },
 					})}
-					href={`${id}`}
+					href={`/game/${id}`}
 				>
 					<Image
 						src={thumbnail}

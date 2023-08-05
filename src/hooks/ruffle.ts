@@ -41,7 +41,8 @@ export const useRuffle = ({
 			unmuteOverlay: "hidden",
 			letterbox: "off",
 			maxExecutionDuration: 100000,
-			splashScreen: false
+			splashScreen: false,
+			base: '/'
 		};
 
 		player.style.width = "100%";
